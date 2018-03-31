@@ -1,10 +1,5 @@
 /*****          CSS Reset Start        *****/
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,11 +57,12 @@ body{
     background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(173, 169, 150), rgb(242, 242, 242), rgb(219, 219, 219), rgb(234, 234, 234)) repeat scroll 0% 0%;
     display: flex;
     flex-direction: column;
-    border: 1px solid #FB3256;
+    border: 1px solid #fb3256;
     width: 315px;
-    box-shadow: 8px 8px 6px #BEBEBE;
+    box-shadow: 8px 8px 6px #bebebe;
+    border-radius: 5px;
     margin: 1%;
-    height: 80vh;
+    height: 600px;
     justify-content: space-around;
 }
 
@@ -96,17 +92,18 @@ body{
 .captionText{
     height: 0.8em;
     width: 20%;
-    margin-top: -1.9em;
-    padding-left: 236px;
+    margin-top: -2.6em;
+    padding-left: 216px;
     color: white;
     z-index: 1;
+    font-weight: bold;
     font-size: 8px;
 }
 
 .detailsSection{
     border: 1px solid #FB3256;
     width: 270px;
-    height: 40vh;
+    height: 320px;
     order: 3;
     margin: 4%;
     border-radius: 5px;
