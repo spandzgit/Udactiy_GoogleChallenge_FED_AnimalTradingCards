@@ -1,0 +1,152 @@
+/*****          CSS Reset Start        *****/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****          CSS Reset End        *****/
+
+
+/*****          App CSS  Start        *****/
+body{
+    background-color: #FFF9C4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardHolder{
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(173, 169, 150), rgb(242, 242, 242), rgb(219, 219, 219), rgb(234, 234, 234)) repeat scroll 0% 0%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FB3256;
+    width: 315px;
+    box-shadow: 8px 8px 6px #BEBEBE;
+    margin: 1%;
+    height: 80vh;
+    justify-content: space-around;
+}
+
+.headerText{
+    font-size: 22px;
+    order: 1;
+    margin: 4%;
+    font-weight: bold;
+}
+
+.animalImgHolder{
+    align-content: center;
+    order: 2;
+    margin: 4%;
+    margin-top: 0%;
+    padding-top: 0%;
+    border-radius: 5px;
+    border: 1px  #FB3256;
+}
+
+.animalImg{
+    width: 290px;
+    height: 200px;
+    border-radius: 2%;
+}
+
+.captionText{
+    height: 0.8em;
+    width: 20%;
+    margin-top: -1.9em;
+    padding-left: 236px;
+    color: white;
+    z-index: 1;
+    font-size: 8px;
+}
+
+.detailsSection{
+    border: 1px solid #FB3256;
+    width: 270px;
+    height: 40vh;
+    order: 3;
+    margin: 4%;
+    border-radius: 5px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.interstngText{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.highlight{
+    background-color: #FFFF00;
+}
+
+.factsList{
+    font-size: 14px;
+}
+
+.factsBold{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.descText{
+    font-size: 14px;
+}
+
+.sourceText{
+    height: 0.8em;
+    width: 30%;
+    margin-bottom: -4%;
+    padding-left: 196px;
+    color: rgb(3, 25, 221);
+    z-index: 1;
+    font-size: 8px;
+    font-style: italic;
+}
+
+/*****          App CSS  End          *****/
